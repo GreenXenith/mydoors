@@ -1,4 +1,6 @@
 
+dofile(minetest.get_modpath("my_saloon_doors").."/crafts.lua")
+
 local doorcol = {
 	{"white",	"White",	"^[colorize:white:120"},
 	{"red",		"Red",		"^[colorize:red:120"},
